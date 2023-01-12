@@ -1,0 +1,83 @@
+.each-msg-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.user-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+}
+
+.background1 {
+  background-color: #0fe4ec;
+}
+
+.background2 {
+  background-color: #09818e;
+}
+
+.background3 {
+  background-color: #fb4c0a;
+}
+
+.background4 {
+  background-color: #669866;
+}
+
+.background0 {
+  background-color: #74ac2d;
+}
+
+.name-and-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.username-text {
+  font-size: 22px;
+  font-family: 'Roboto';
+  margin-right: 20px;
+}
+
+.time-text {
+  font-size: 14px;
+}
+
+.message-container {
+  background-color: #cccccc;
+  padding: 10px;
+  border-radius: 14px;
+  border-top-left-radius: 0px;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  margin: 0px;
+}
+
+.like-button-and-count-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.like-button {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.like-count-text {
+  margin: 0px;
+  font-size: 13px;
+  color: #0066ff;
+}
